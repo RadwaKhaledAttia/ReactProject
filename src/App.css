@@ -8,18 +8,86 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #191940;
+  min-height: 30vh;
   color: white;
 }
 
+.header img {
+  float: left;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: 100px;
+  height: 70px;
+  background: #191940;
+  background-image: none;
+}
+
+.topnav{
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.topnav a{
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  font-family: Arial;
+  pointer-events: none;
+  cursor: default;
+}
+
+a.active{
+  color: #ffa500;
+}
+
+.reglinks{
+  padding-right: 50px;
+}
+
+.reglinks a{
+  float: right;
+}
+
+a.reg {
+  background-color: #ffa500;
+  line-height: 15px;
+  border-radius: 8px;
+}
+
+.search{
+  padding-top: 60px;
+}
+
+
 .App-link {
   color: #61dafb;
+}
+
+.paragraphs{
+  font-size: 20px;
+  color: #ffa500;
+  font-family: verdina, Arial;
+}
+.paragraphs span{
+  color: white;
+  font-size: 16px;
+}
+.top{
+  text-align: center;
+  color: #191940;
+  font-size: 18px;
+
+}
+
+.more {
+  float: right;
+  text-decoration: none;
+  color: #191940;
+  font-family: verdina, Arial;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,27 @@
+.lists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li {
+  float: left;
+}
+
+.one-product {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 8px;
+}
+
+.container {
+  background-color: #333333;
+  display: table;
+  margin: 0 auto;
+}
